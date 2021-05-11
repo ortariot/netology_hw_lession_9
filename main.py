@@ -1,4 +1,5 @@
 from pprint import pprint
+import file_stiching
 
 
 class CookHelper:
@@ -42,7 +43,8 @@ class CookHelper:
 
 if __name__ == '__main__':
     cook_session = CookHelper()
-    
     sl = cook_session.get_shop_list_by_dishes(['Омлет', 'Фахитос', 'Омлет'], 2)
     pprint(sl)
+    file_stiching.txt_file_steaching()
+
 
