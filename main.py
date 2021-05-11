@@ -1,5 +1,6 @@
 from pprint import pprint
 
+
 class CookHelper:
     def __init__(self):
         with open('recipes.txt', encoding='utf-8') as f:
@@ -44,5 +45,4 @@ if __name__ == '__main__':
     
     sl = cook_session.get_shop_list_by_dishes(['Омлет', 'Фахитос', 'Омлет'], 2)
     pprint(sl)
-
 
